@@ -33,7 +33,7 @@ git restore <file_name>---> to restore the particular file of previous commit
 git restore --source HEAD~N <file_name>  N- represent the count of the commit back to the leatest commit
 git restore --staged filename -->to unstage the particular file 
 -------------------
-git reset <hash id of first 7 digit> -->remove commit and reset the branch, so this will remove the commit and if u want to commit this changes then again u have to add the file and commit the removed lines
+git reset <hash id of first 7 digit> -->remove commit and reset the branch, so this will remove the commit(instead of ctrl+z to remove the new changes) and if u want to commit this changes then again u have to add the file and commit the removed lines
 git reset <hash Id of first 7 digit> -hard --> this is automatically remove and commit the changes
 -------------------
 git revert <hash id>
