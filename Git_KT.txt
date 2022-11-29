@@ -37,3 +37,5 @@ git reset <hash id of first 7 digit> -->remove commit and reset the branch, so t
 git reset <hash Id of first 7 digit> -hard --> this is automatically remove and commit the changes
 -------------------
 git revert <hash id>
+
+
