@@ -1,0 +1,44 @@
+======================"Welcome to git knowledge transfer Page"===================
+Git init -> to initalise the .git
+Git add <file1_name> <file2_name> --> to add specific file to staging area
+git add . --> to add the all the changes or modified file to staging area
+git commit -m "leave from message for the commit" --> commit the staged changes
+git push -u origin <branch name> -->push the commit to the specified branch
+-------------------
+git remote -v --> to view the remote repository
+git remote add origin "repo link" --> to add the repository
+git remote delete -d origin "repo_link" -->to delete
+-------------------
+git branch -->to see the branches of this repository
+git branch <branch_name> --> to create a new branch under the repository
+git branch delete -d <branch_name>  -->to soft delete the branch, it will throw warning before deleting the branch
+git branch delete -D <branch_name>  --> it will directly force delete the branch without warning
+git branch rename -m <new_branch_name> --> before renaming u should witch to renaming branch then use this comd
+git switch <branch_name> --> to switch to the branch
+-------------------
+git log --> to see the log history of commits
+git log --oneline -->to see the 7 letter hashed commit id with one line
+git status --> to see the status of the branch whether it contains tree clean or staged commits etc..
+git diff -> in the current branch, it make a difference b/w the previous commmit and latest commit
+git diff <branch1> <branch2> --> give the difference between 2 branches
+-------------------
+git fetch --> to fetch the commited changes of the branch
+git pull  --> to pull the pushed changes
+-------------------
+git merge <branch name> --> go to the branch which u wanted to merge other branch, then use this cmd
+git checkout <branch_name> --> checkout to that particular branch
+git checkout <commit id> --> chekcout to particular commit id of the branch 
+-------------------
+git restore <file_name>---> to restore the particular file of previous commit
+git restore --source HEAD~N <file_name>  N- represent the count of the commit back to the leatest commit
+git restore --staged filename -->to unstage the particular file 
+-------------------
+git reset <hash id of first 7 digit> -->remove commit and reset the branch, so this will remove the commit and if u want to commit this changes then again u have to add the file and commit the removed lines
+git reset <hash Id of first 7 digit> -hard --> this is automatically remove and commit the changes
+-------------------
+git revert <hash id>
+
+
+need to know the fetch and pull differences
+yet to know
+
